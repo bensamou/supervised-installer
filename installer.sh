@@ -14,10 +14,10 @@ warn "via a Docker container."
 warn ""
 echo 'Please typ "not supported" to continue this installation'
 read x
-if [ "$x" != "not supported" ]; then
-  echo "OK, bye!"
-  exit 1
-fi
+#if [ "$x" != "not supported" ]; then
+#  echo "OK, bye!"
+#  exit 1
+#fi
 
 ARCH=$(uname -m)
 DOCKER_BINARY=/usr/bin/docker
